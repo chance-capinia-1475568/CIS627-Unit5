@@ -33,3 +33,10 @@ In principle, that is correct. By using zone based tracking and setting sensitiv
 - It is unclear whether coaches agree that the zone breakdown matches what they see when observing the ball's reaction in person, or whether it complicates their existing read.
 - It is unclear whether a sensitivity setting adjusted for each bowler is useful, or whether it confuses teammates when they discuss results.
 - It is not clear whether the necessary data, such as the entry angle and breakpoint for each shot by lane zone, can realistically be recorded during league or tournament play without slowing things down.
+
+## Reflection on Innovation and Version Control
+**How branches support low-risk experimentation:** Creating the `prototype` branch made it possible to develop and document improvements to zones and bowler sensitivity without changing the original approach on `main`. It is like an analytics team testing a more detailed version of a metric without affecting the version coaches are currently using, so any change that doesn't work has no impact on the main workflow.
+
+**How GitHub helps analytics ideas gain traction with decision makers:** The commit history shows how the idea developed, from the original concept through tested improvements and evaluation to the final decision to adopt it. This clear record makes it much easier for a coach or bowling program to trust the idea, since they can see the reasons behind each step rather than being given a finished tool with no record of how or why it was built that way.
+
+**Alignment with the Chapter 7 innovation framework:** The different stages correspond directly to the creative phase, the prototyping phase, the engagement phase, and the build phase. The first entry in the README covered the creative phase, the prototype branch covered the prototyping phase, the evaluation section represented the engagement phase, and the merge (or the record of the decision not to merge) shows the build and implementation decision. Because of version control, each phase has a specific, traceable place in the project's history.
