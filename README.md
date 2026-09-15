@@ -19,3 +19,8 @@ A coach or team captain would look at the score between games or during breaks i
 
 ## Connection to Chapter 7
 The idea is at the **creative phase** of the Chapter 7 innovation framework. Although the concept and the problem it aims to solve are clearly defined, no prototypes have been developed, no testing has been carried out on actual lane data, and no real coach or bowler has reviewed it. To proceed, prototyping and real feedback are necessary.
+
+## Prototype Enhancement
+**What is being changed:** The changes involve the original score considering the entire lane as one continuous oil pattern that breaks down evenly, whereas the improved version divides the lane into zones, such as those within the board range, the middle section of the lane, and those outside the board range, and monitors the breakdown separately for each zone. This is because more ball traffic on one side of the lane causes the oil to be used up more quickly there than in other areas. Additionally, the score includes a sensitivity weight for each bowler, since some bowlers' combinations of ball and release are more tolerant of a changing oil pattern than others.
+
+**Why this could enhance decision-making:** A single lane-wide breakdown figure might not detect that the zone a bowler is bowling on has changed much more rapidly or slowly than the lane average, which is when a coach would ask for an adjustment. Because the tool includes a sensitivity weight for each bowler, it won't request an adjustment for a bowler whose game is naturally more tolerant of oil breakdown, and it will prompt an adjustment earlier for a bowler whose game isn't.
